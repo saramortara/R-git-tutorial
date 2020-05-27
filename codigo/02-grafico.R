@@ -27,7 +27,7 @@ p <- ggplot(df, aes(x = date, y = confirmed_per_100k_inhabitants)) +
   geom_point(color = "red") +
   scale_x_date(date_labels = "%d/%b") +
   labs(x = "Data",
-       y = "Casos (por 100 mil hab.)",
+       y = "Casos (por 100 mil habitantes)",
        caption = paste0("Fonte: ", meta$fonte),
        title = "Casos de COVID-19 no Rio de Janeiro-RJ") +
   theme_minimal()
