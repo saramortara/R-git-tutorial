@@ -1,6 +1,6 @@
 # Trabalhos reprodutíveis em R e git
 
-Este material é construído por Sara R. Mortara e Andrea Sánchez-Tapia. Fique à vontade para usar e reproduzir desde que dando os devidos créditos.
+Este material é construído por Sara R. Mortara e [Andrea Sánchez-Tapia](https://github.com/AndreaSanchezTapia). Fique à vontade para usar e reproduzir desde que dando os devidos créditos.
 
 ## Estrutura de pastas
 
@@ -9,8 +9,9 @@ Não há trabalho reprodutível sem uma estrutura de pastas clara e documentada.
     .
     ├── codigo/               # Scripts em R
     ├── dados/                # Dados 
-    ├── outputs/              # Outputs gerados a partir dos codigos
-    ├── figs/                 # Figuras geradas a partir dos codigos
+    ├── output/               # Outputs gerados a partir dos códigos
+    ├── figs/                 # Figuras geradas a partir dos códigos
+    ├── docs/                 # Relatórios reprodutíveis produzidos a partir dos outputs
     ├── *.Rproj               # Projeto de RStudio
     ├── .gitignore            # Lista dos arquivos e/ou pastas que não serão controlados
     └── README.md             # Documentação -> Leia e escreva sempre que possível ;)
