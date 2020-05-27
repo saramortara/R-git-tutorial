@@ -1,0 +1,22 @@
+---
+title: "Fazendo um relatório simples"
+author: "RLadiesRio"
+date: "27 de maio 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r dados}
+df <- read.csv("output/01-rio_de_janeiro.csv")
+df$date <- as.Date(df$date)
+meta <- read.csv("output/metadado_corona_br.csv")
+```
+
+## Casos acumulados de COVID-19 no Rio de Janeiro-RJ
+
+De acordo com o portal [Brasil.io](`r meta$fonte`) que extrai dados diretamente da Secretaria de Saúde do Estado do Rio de Janeiro, entre `r min(df$date)` e `r max(df$date)` o Rio de Janeiro possui `r max(df$confirmed)` casos de COVID-19. Esse número inclui casos recuperados e não inclui subnotificação ou atrasos nas notificações. 
+
+![](../figs/02-rj_dados_brutos.png)

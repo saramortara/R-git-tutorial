@@ -5,6 +5,6 @@
 .Ruserdata
 
 # rmd output
-.html
+*.html
 
 
