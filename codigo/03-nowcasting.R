@@ -36,3 +36,9 @@ plot <- nowcasting %>%
   theme(legend.position = c(0.8, 0.2))
 
 plot
+
+# exportando o grafico
+png("figs/03-rj_nowcasting.png", res = 300,
+    width = 1400, height = 1200)
+plot
+dev.off()
