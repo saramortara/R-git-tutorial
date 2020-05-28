@@ -1,6 +1,6 @@
 # Trabalhos reprodutíveis em R e git
 
-Este tutorial é parte da palestra **Trabalhos reprodutíveis com R e git: um exemplo usando o pacote coronabr** apresentado no dia 27 de maio de 2020 (a apresentação da palestra você encontra [aqui]()) no *meet up* das [RLadiesRio](https://github.com/rladies-rio/meetup-presentations_rio). 
+Este tutorial é parte da palestra **Trabalhos reprodutíveis com R e git: um exemplo usando o pacote coronabr** apresentado no dia 27 de maio de 2020 no *meet up* das [RLadiesRio](https://github.com/rladies-rio/meetup-presentations_rio). A apresentação está disponível [aqui](https://github.com/saramortara/R-git-apresentacao).
 
 Este material é construído por mim e [Andrea Sánchez-Tapia](https://github.com/AndreaSanchezTapia). Fique à vontade para usar e reproduzir desde que dando os devidos créditos.
 
