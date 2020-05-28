@@ -1,6 +1,6 @@
 # Trabalhos reprodutíveis em R e git
 
-Este material é construído por Sara R. Mortara e [Andrea Sánchez-Tapia](https://github.com/AndreaSanchezTapia). Fique à vontade para usar e reproduzir desde que dando os devidos créditos.
+Este material é construído por mim e [Andrea Sánchez-Tapia](https://github.com/AndreaSanchezTapia). Fique à vontade para usar e reproduzir desde que dando os devidos créditos.
 
 ## Estrutura de pastas
 
@@ -19,4 +19,10 @@ Não há trabalho reprodutível sem uma estrutura de pastas clara e documentada.
 ## Organizando códigos e outputs
 
 Utilize nomenclatura clara, informativa. É recomendado evitar espaços, acentos e pontuação em nome de arquivos. Numerar scripts e seus respectivos outputs sempre ajuda. 
+
+## Como usar
+
+Você pode clonar esse repositório localmente e simplesmente tentar rodar tudo que está aqui. Deve funcionar se você seguir a ordem dos scripts e trabalhar com o projeto de RStudio ou com o seu *working directory* na raiz do repositório. 
+
+Se tiver sugestões, pode fazer um *fork* do repositório e um *pull request* para o branch `dev`.
 
